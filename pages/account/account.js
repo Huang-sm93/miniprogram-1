@@ -1,23 +1,11 @@
-// pages/home/home.js
+// pages/account/account.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    accountInfo:{
-      date: '2024年6月',
-      monthExpenses: -2561.23,
-      annualExpenses: -19882.20,
-      budget: 2500.00,
-      consumption: -2561.23,
-      balance: -61.23
-    }
-  },
-  goToAccount(){
-    wx.navigateTo({
-      url: '../account/account',
-    })
+
   },
 
   /**

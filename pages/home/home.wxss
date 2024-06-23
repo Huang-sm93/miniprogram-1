@@ -1,1 +1,25 @@
-/* pages/home/home.wxss */
+.base-info{
+  background-color: beige;
+  padding: 20rpx 20rpx;
+  height: 300rpx;
+}
+.account-img{
+  background-color: cadetblue;
+  height: 600rpx;
+}
+.out-top{
+  background-color: whitesmoke;
+  height: 300rpx;
+}
+.month-out{
+  background-color: chartreuse;
+  height: 300rpx;
+}
+
+text{
+  background-color: greenyellow;
+}
+.line-set{
+  display: flex;
+  justify-content: space-between; 
+}
