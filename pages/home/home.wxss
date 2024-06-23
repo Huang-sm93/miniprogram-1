@@ -17,9 +17,18 @@
 }
 
 text{
-  background-color: greenyellow;
+  height: 40rpx;
+  color: rgb(42, 42, 42);
+  font-size: 20rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 400;
+  line-height: 20rpx;
 }
 .line-set{
   display: flex;
+  height: 80rpx;
   justify-content: space-between; 
+}
+button{
+  display: flex;
 }
