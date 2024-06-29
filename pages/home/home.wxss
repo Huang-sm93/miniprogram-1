@@ -1,34 +1,92 @@
-.base-info{
-  background-color: beige;
-  padding: 20rpx 20rpx;
-  height: 300rpx;
-}
-.account-img{
-  background-color: cadetblue;
-  height: 600rpx;
-}
-.out-top{
-  background-color: whitesmoke;
-  height: 300rpx;
-}
-.month-out{
-  background-color: chartreuse;
-  height: 300rpx;
+.base-info {
+    margin: 20rpx 20rpx;
 }
 
-text{
-  height: 40rpx;
-  color: rgb(42, 42, 42);
-  font-size: 20rpx;
-  font-family: PingFangSC-Semibold;
-  font-weight: 400;
-  line-height: 20rpx;
+.account-img {
+    background-color: cadetblue;
+    height: 600rpx;
+    padding: 20rpx;
 }
-.line-set{
-  display: flex;
-  height: 80rpx;
-  justify-content: space-between; 
+
+.out-top {
+    background-color: whitesmoke;
+    height: 300rpx;
 }
-button{
-  display: flex;
+
+.month-out {
+    padding: 10rpx;
+}
+
+.text-1 {
+    color: rgb(42, 42, 42);
+    align-items: center;
+    font-size: 24rpx;
+}
+
+.line-set {
+    display: flex;
+    flex-direction: row;
+    height: 40rpx;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rpx;
+}
+
+.line-set-flow {
+    display: flex;
+    flex-direction: row;
+    height: 40rpx;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5rpx;
+}
+
+.button-1 {
+    margin: 0;
+    justify-content: center;
+    height: 50rpx;
+    width: 80rpx;
+    text-align: center;
+}
+
+.inAndOutText{
+    color: rgb(42, 42, 42);
+    justify-content: left;
+    height: 40rpx;
+    width: 100rpx;
+    padding: 0 20rpx 0;
+    text-align: left;
+    margin: 20rpx;
+}
+
+.amountText{
+    color: rgb(42, 42, 42);
+    justify-content: left;
+    height: 40rpx;
+    width: 100rpx;
+    padding: 0 20rpx 0;
+    text-align: left;
+    margin: 20rpx;
+
+}
+
+.timeText{
+    color: rgb(42, 42, 42);
+    justify-content: left;
+    height: 40rpx;
+    width: 250rpx;
+    padding: 0 20rpx 0;
+    text-align: left;
+    margin: 20rpx;
+
+}
+
+.month-select{
+    display: flex;
+    flex-direction: row;
+    height: 40rpx;
+}
+.pcik-month{
+    display: flex;
+    flex-direction:column;
 }
